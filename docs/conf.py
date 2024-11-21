@@ -6,16 +6,14 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'test_readthedocs'
-copyright = '2024, malama_chali'
-author = 'malama_chali'
+project = 'test1'
+copyright = '2024, malama_chali_david'
+author = 'malama_chali_david'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
-source_suffix = ['.rst', '.md']
-
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
