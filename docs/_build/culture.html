@@ -14,8 +14,6 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Prédiction de la Production" href="production.html" />
-    <link rel="prev" title="AgriTech" href="index.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,7 +33,40 @@
             
   <section id="recommandation-de-culture">
 <h1>Recommandation de Culture<a class="headerlink" href="#recommandation-de-culture" title="Link to this heading">¶</a></h1>
-<p>This is the page for “Recommandation de Culture”.</p>
+<p>Cette fonctionnalité utilise des données collectées sur le terrain pour prédire la meilleure culture / semence à planter.</p>
+<section id="caracteristiques-utilisees">
+<h2>Caractéristiques Utilisées<a class="headerlink" href="#caracteristiques-utilisees" title="Link to this heading">¶</a></h2>
+<p>Les caractéristiques suivantes sont collectées et analysées pour effectuer les prédictions :</p>
+<ul class="simple">
+<li><p><strong>N</strong> : Ratio of Nitrogen content in soil - kg/ha.</p></li>
+<li><p><strong>P</strong> : Ratio of Phosphorous content in soil - kg/ha.</p></li>
+<li><p><strong>K</strong> : Ratio of Potassium content in soil - kg/ha.</p></li>
+<li><p><strong>Température</strong> : Température ambiante (°C).</p></li>
+<li><p><strong>Humidité</strong> : Taux d’humidité (%).</p></li>
+<li><p><strong>pH</strong> : Niveau de pH du sol.</p></li>
+<li><p><strong>Pluviométrie</strong> : Quantité de précipitations (mm).</p></li>
+</ul>
+</section>
+<section id="modeles-entraines">
+<h2>Modèles Entraînés<a class="headerlink" href="#modeles-entraines" title="Link to this heading">¶</a></h2>
+<p>Cinq modèles de machine learning ont été testés pour prédire la culture optimale à cultiver :</p>
+<ul class="simple">
+<li><p><strong>LightGBM</strong></p></li>
+<li><p><strong>Random Forest</strong></p></li>
+<li><p><strong>Support Vector Machine</strong></p></li>
+<li><p><strong>Neural Network</strong></p></li>
+<li><p><strong>Naïve Bayes</strong></p></li>
+</ul>
+</section>
+<section id="resultats-et-meilleur-modele">
+<h2>Résultats et Meilleur Modèle<a class="headerlink" href="#resultats-et-meilleur-modele" title="Link to this heading">¶</a></h2>
+<p>Parmi les modèles testés, le modèle <strong>Naïve Bayes</strong> a montré les meilleures performances, avec une précision de <strong>99 %</strong>.
+En raison de sa précision et de sa simplicité, il a été adopté pour cette fonctionnalité.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>La recommandation de culture permet aux agriculteurs d’optimiser leurs rendements en utilisant des analyses basées sur des données terrain. Grâce au modèle <strong>Naïve Bayes</strong>, l’application fournit des prédictions rapides et précises, adaptées aux conditions spécifiques de chaque champ.</p>
+</section>
 </section>
 
 
@@ -64,19 +95,11 @@
     </div>
 </search>
 <script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
-<p class="caption" role="heading"><span class="caption-text">Pages Fonctionnalités</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Recommandation de Culture</a></li>
-<li class="toctree-l1"><a class="reference internal" href="production.html">Prédiction de la Production</a></li>
-<li class="toctree-l1"><a class="reference internal" href="maladies.html">Reconnaissance des Maladies</a></li>
-</ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="index.html" title="previous chapter">AgriTech</a></li>
-      <li>Next: <a href="production.html" title="next chapter">Prédiction de la Production</a></li>
   </ul></li>
 </ul>
 </div>

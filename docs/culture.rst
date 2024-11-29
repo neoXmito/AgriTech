@@ -22,9 +22,9 @@ Modèles Entraînés
 Cinq modèles de machine learning ont été testés pour prédire la culture optimale à cultiver :  
 
 - **LightGBM**  
-- **Forêt Aléatoire**
-- **Machine à Vecteurs de Support (SVM)**
-- **Réseau Neuronal** 
+- **Random Forest**
+- **Support Vector Machine**
+- **Neural Network** 
 - **Naïve Bayes** 
 
 Résultats et Meilleur Modèle
