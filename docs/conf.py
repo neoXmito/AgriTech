@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'test1'
-copyright = '2024, malama_chali_david'
-author = 'malama_chali_david'
+copyright = '2024, malama_chali_david and traore souleymane'
+author = 'malama_chali_david and traore souleymane'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

@@ -1,0 +1,9 @@
+##
+pip install sphinx
+sphinx-quickstart
+This creates a docs/ directory with necessary files (conf.py, index.rst, etc.).
+
+
+
+## Build the HTML documentation 
+sphinx-build -b html docs/ docs/_build
