@@ -17,11 +17,11 @@ AgriTech
 Fonctionnalités principales
 ---------------------------
 
-L'application **AgriTech** propose trois fonctionnalités principales :  
+L'application **AgriTech** propose trois fonctionnalités principales :
 
-1. **Recommandation de culture**  
-2. **Prédiction de la production d'un champ**  
-3. **Reconnaissance des maladies des plantes et recommendation des traitements**
+1. `Recommandation de Culture <culture.html>`_  
+2. `Prédiction de la Production d'un Champ <production.html>`_  
+3. `Reconnaissance des Maladies des Plantes <maladies.html>`_
 
 .. toctree::
    :maxdepth: 2
