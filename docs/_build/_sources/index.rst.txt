@@ -23,13 +23,6 @@ L'application **AgriTech** propose trois fonctionnalités principales :
 2. `Prédiction de la Production d'un Champ <production.html>`_  
 3. `Reconnaissance des Maladies des Plantes <maladies.html>`_
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Pages Fonctionnalités
-
-   culture
-   production
-   maladies
 
 Conclusion
 ----------
