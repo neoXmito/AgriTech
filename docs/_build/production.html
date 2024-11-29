@@ -14,8 +14,6 @@
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Reconnaissance des Maladies" href="maladies.html" />
-    <link rel="prev" title="Recommandation de Culture" href="culture.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,7 +33,47 @@
             
   <section id="prediction-de-la-production">
 <h1>Prédiction de la Production<a class="headerlink" href="#prediction-de-la-production" title="Link to this heading">¶</a></h1>
-<p>This is the page for “Prédiction de la Production”.</p>
+<p>Cette fonctionnalité utilise des données historiques et environnementales pour prédire la production agricole d’un champ donné.</p>
+<section id="caracteristiques-utilisees">
+<h2>Caractéristiques Utilisées<a class="headerlink" href="#caracteristiques-utilisees" title="Link to this heading">¶</a></h2>
+<p>Les prédictions sont basées sur les caractéristiques suivantes :</p>
+<ul class="simple">
+<li><p><strong>Area</strong> : Superficie cultivée (en hectares).</p></li>
+<li><p><strong>Item</strong> : Type de culture ou produit agricole.</p></li>
+<li><p><strong>Year</strong> : Année de production.</p></li>
+<li><p><strong>hg/ha_yield</strong> : Rendement par hectare (en hectogrammes).</p></li>
+<li><p><strong>average_rain_fall_mm_per_year</strong> : Pluviométrie annuelle moyenne (en mm).</p></li>
+<li><p><strong>pesticides_tonnes</strong> : Quantité de pesticides utilisés (en tonnes).</p></li>
+<li><p><strong>avg_temp</strong> : Température moyenne (°C).</p></li>
+</ul>
+</section>
+<section id="modeles-entraines">
+<h2>Modèles Entraînés<a class="headerlink" href="#modeles-entraines" title="Link to this heading">¶</a></h2>
+<p>Huit modèles de régression ont été testés pour prédire la production agricole :</p>
+<ul class="simple">
+<li><p><strong>Linear Regression</strong></p></li>
+<li><p><strong>Lasso</strong></p></li>
+<li><p><strong>Ridge</strong></p></li>
+<li><p><strong>K-Nearest Neighbors</strong></p></li>
+<li><p><strong>Decision Tree Regressor</strong></p></li>
+<li><p><strong>Random Forest Regressor</strong></p></li>
+<li><p><strong>Gradient Boosting</strong></p></li>
+<li><p><strong>XGBoost</strong></p></li>
+</ul>
+</section>
+<section id="resultats-et-meilleur-modele">
+<h2>Résultats et Meilleur Modèle<a class="headerlink" href="#resultats-et-meilleur-modele" title="Link to this heading">¶</a></h2>
+<p>Parmi les modèles testés, le modèle <strong>Random Forest Regressor</strong>  a montré les meilleures performances avec les métriques suivantes :</p>
+<ul class="simple">
+<li><p><strong>MSE (Erreur Quadratique Moyenne)</strong> : 9892.72</p></li>
+<li><p><strong>R² Score</strong> : 0.9867</p></li>
+</ul>
+<p>Grâce à ces résultats exceptionnels, ce modèle a été adopté pour cette fonctionnalité.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>La prédiction de la production permet aux agriculteurs de planifier leurs ressources et d’optimiser leurs rendements. En utilisant le modèle <strong>Random Forest Regressor</strong>, l’application fournit des prévisions fiables basées sur des données historiques et environnementales.</p>
+</section>
 </section>
 
 
@@ -64,19 +102,11 @@
     </div>
 </search>
 <script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
-<p class="caption" role="heading"><span class="caption-text">Pages Fonctionnalités</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="culture.html">Recommandation de Culture</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Prédiction de la Production</a></li>
-<li class="toctree-l1"><a class="reference internal" href="maladies.html">Reconnaissance des Maladies</a></li>
-</ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="culture.html" title="previous chapter">Recommandation de Culture</a></li>
-      <li>Next: <a href="maladies.html" title="next chapter">Reconnaissance des Maladies</a></li>
   </ul></li>
 </ul>
 </div>

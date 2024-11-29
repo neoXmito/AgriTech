@@ -1,3 +1,11 @@
+Sphinx is a powerful documentation generator primarily
+ used for creating professional-quality technical
+  documentation. It was originally developed for 
+  documenting Python projects but has since evolved to
+   support a wide range of programming languages and 
+   formats
+
+
 ##
 pip install sphinx
 sphinx-quickstart
