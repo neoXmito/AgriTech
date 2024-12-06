@@ -3,20 +3,6 @@ AgriTech
 
 **AgriTech** est un projet basé sur le machine learning, visant à développer une application répondant à divers besoins dans le domaine agricole.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Navigation
-
-   introduction
-   etapes
-   fonctionnalites
-   conclusion
-
-Introduction
-------------
-
-Le projet **AgriTech** introduit des solutions innovantes dans le domaine agricole.
-
 Étapes du projet
 -----------------
 
@@ -37,7 +23,8 @@ L'application **AgriTech** propose trois fonctionnalités principales :
 2. `Prédiction de la Production d'un Champ <production.html>`_  
 3. `Reconnaissance des Maladies des Plantes <maladies.html>`_
 
+
 Conclusion
 ----------
 
-Le projet **AgriTech** vise à révolutionner le secteur agricole grâce à l'intelligence artificielle et au machine learning, en apportant des solutions concrètes et efficaces aux agriculteurs.  
+Le projet **AgriTech** vise à révolutionner le secteur agricole grâce à l'intelligence artificielle et au machine learning, en apportant des solutions concrètes et efficaces aux agriculteurs.
